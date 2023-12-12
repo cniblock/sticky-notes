@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p {
+    font-size: 22px;
+}
+
 body {
     background-image: url("/assets/images/pexels-pixabay-326311.jpg");
 }
@@ -23,7 +27,7 @@ body {
     padding: 15px 20px 20px;
 }
 
-.add-box, .bottom-content .settings .menu {
+.add-box, .icon, .bottom-content, .settings, .menu li{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,6 +39,16 @@ body {
     cursor: pointer;
 }
 
+.add-box .icon {
+    height: 78px;
+    width: 78px;
+}
+
+.add-box p {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
 .wrapper .note {
     display: flex;
     flex-direction: column;
@@ -42,8 +56,8 @@ body {
 }
 
 .fa-circle-plus {
-    font-size: 45px;
-    margin-bottom: 15px;
+    font-size: 40px;
+    margin: 0 auto;
 }
 
 .note p {
@@ -58,10 +72,14 @@ body {
 }
 
 .note .bottom-content {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
-.bottom-content .setting i {
+.bottom-content .span {
+    font-size: 16px;
+}
+
+.bottom-content .settings i {
     cursor: pointer;
     font-size: 16px;
 }
@@ -77,14 +95,22 @@ body {
 .settings .menu {
     position: absolute;
     bottom: 0;
-    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
     padding: 5px 0;
     background: yellow;
     border-radius: 4px;
+    right: -5;
+    transform: scale(0);
+    transition: transform 0.2 ease;
+    transform-origin: bottom right;
+}
+
+.settings:hover .menu {
+    transform: scale(1);
 }
 
 .settings {
-    position:relative;
+    position: relative;
 }
 
 .manu li i {
