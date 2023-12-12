@@ -79,7 +79,7 @@ body {
     font-size: 16px;
 }
 
-.bottom-content .settings i {
+.bottom-content .settings .icon{
     cursor: pointer;
     font-size: 16px;
 }
@@ -113,7 +113,7 @@ body {
     position: relative;
 }
 
-.manu li i {
+.menu li i {
     padding-right: 8px;
 }
 
@@ -135,12 +135,23 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    z-index: 2;
+    z-index: 3;
     max-width: 400px;
     width: 100;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-    z-index: 3;
+
+}
+
+.popup-box, .popup-box .popup {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease;
+}
+
+.popup-box.show, .popup-box.show .popup {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .popup .content {
@@ -161,7 +172,7 @@ body {
 .content header i {
     cursor: pointer;
     font-size: 23px;
-    color: rgba(195, 195, 0, 0.833);
+    color: rgba(59, 59, 0, 0.833);
 }
 
 .content form {
@@ -191,6 +202,7 @@ form .row .label {
 .content form textarea{
     height: 150px;
     resize: none;
+    padding: 8px 15px;
 }
 
 .content form button {
