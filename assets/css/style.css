@@ -3,3 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url("/assets/images/pexels-pixabay-326311.jpg");
+}
+
+.wrapper {
+    margin: 50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 265px);
+}
+
+.wrapper li {
+    height: 250px;
+    list-style: none;
+    background: yellow;
+    border-radius: 5px;
+    padding: 15px 20px 20px;
+}
+
+.add-box, .bottom-content .settings .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-box {
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.wrapper .note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa-circle-plus {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.note p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.note span {
+    font-size: 18px;
+    margin-top: 5px;
+    display: block;
+}
+
+.note .bottom-content {
+    padding-top: 15px;
+}
+
+.bottom-content .setting i {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.settings .menu li {
+    height: 25px;
+    border-radius: 0;
+    justify-content: flex-start;
+    background: yellow;
+    font-size: 16px;
+}
+
+.settings .menu {
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    padding: 5px 0;
+    background: yellow;
+    border-radius: 4px;
+}
+
+.settings {
+    position:relative;
+}
+
+.manu li i {
+    padding-right: 8px;
+}
+
+.menu li:hover {
+    background: rgb(255, 255, 50);
+}
