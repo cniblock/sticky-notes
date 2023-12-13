@@ -118,7 +118,7 @@ body {
 }
 
 .menu li:hover {
-    background: rgb(255, 255, 50);
+    background: rgba(0, 0, 0, 0.116);
 }
 
 .popup-box {
@@ -172,7 +172,7 @@ body {
 .content header i {
     cursor: pointer;
     font-size: 23px;
-    color: rgba(59, 59, 0, 0.833);
+    color: rgba(0, 0, 0, 0.625);
 }
 
 .content form {
