@@ -90,12 +90,8 @@ body {
     font-size: 16px;
 }
 
-.settings .menu li {
-    height: 25px;
-    border-radius: 0;
-    justify-content: flex-start;
-    background: yellow;
-    font-size: 16px;
+.settings {
+    position: relative;
 }
 
 .settings .menu {
@@ -115,8 +111,12 @@ body {
     transform: scale(1);
 }
 
-.settings {
-    position: relative;
+.settings .menu li {
+    height: 25px;
+    border-radius: 0;
+    justify-content: flex-start;
+    background: yellow;
+    font-size: 16px;
 }
 
 .menu li i {
