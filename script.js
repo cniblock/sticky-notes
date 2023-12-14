@@ -20,7 +20,7 @@ closeIcon.addEventListener("click", () => {
 
 function showNotes() {
     document.querySelectorAll(".note").forEach(note => note.remove());
-    notes.forEach((note) => {
+    notes.forEach((note, index) => {
         let liTag = `<li class="note">
         <div class="details">
           <p>${note.title}</p>
@@ -29,10 +29,10 @@ function showNotes() {
         <div class="bottom-content">
           <span>${note.date}</span>
           <div class="settings">
-            <i class="fa-solid fa-ellipsis"></i>
+            <i onclick="showMenu(this)" class="fa-solid fa-ellipsis"></i>
             <ul class="menu">
               <li><i class="fa-regular fa-pen-to-square"></i>Edit</li>
-              <li><i class="fa-regular fa-trash-can"></i>Delete</li>
+              <li onlick="deleteNote(${index})"><i class="fa-regular fa-trash-can"></i>Delete</li>
             </ul>
           </div>
         </div>
@@ -41,6 +41,19 @@ function showNotes() {
     });
 }
 showNotes();
+
+function showMenu(elem) {
+    elem.parentElement.classList.add("show");
+    document.addEventListener("click", e => {
+        if (e.target.tagName != "I" || e.target != elem) {
+            elem.parentElement.classList.remove("show");
+        }
+    });
+}
+
+function deleteNote(noteId) {
+    console.log(noteId);
+}
 
 addBtn.addEventListener("click", e => {
     e.preventDefault();
