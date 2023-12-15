@@ -33,7 +33,7 @@ Update existing notes with ease.
 
 ### - Colored Notes
 
-Different colored notes for visual clarity and enhanced User experience.
+Different colored notes for visual clarity and an enhanced user experience.
 
 ### - User-Friendly Interface
 
@@ -45,53 +45,53 @@ Easily delete notes that are no longer needed.
 
 ### - Date Stamp
 
-Every note entry includes a timestamp to track when the note was created or last updated
+Every note entry includes a timestamp to track when the note was created or last updated.
 
 ### - Responsive Design
 
 The web application is designed to be accessible on various devices for convenience.
 
-## Testing.
+## Testing
 
-### Validator Testing.
+### Validator Testing
 
 - HTML
 
-  - I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input)
+  - I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input).
 
 - CSS
 
-  - I can confirm that all CSS has passed without error in the official Jigsaw [Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - I can confirm that all CSS has passed without error in the official Jigsaw [Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
 - JavaScript
-  - I can confirm that all JavaScript has passed without error in [JShint](https://jshint.com/) - there are however 13 warnings.
+  - I can confirm that all JavaScript has passed without error in [JShint](https://jshint.com/) - there are, however, 13 warnings.
 
-### Accessibility.
+### Accessibility
 
 ![Accessibility Score](readmeimages/lighthouse.jpg)
 
-A disappointing accessibility score, this is due to the bold colours of the note boxes.
+A disappointing accessibility score, this is due to the bold colors of the note boxes.
 
-## Unfixed bugs.
+## Unfixed Bugs
 
 There are no unfixed bugs on the deployed page.
 
-## Deployment.
+## Deployment
 
-The website has been deployed for several days and it has been very helpful in testing the website on numerous devices.
+The website has been deployed for several days, and it has been very helpful in testing the website on numerous devices.
 
 The process I followed for deploying the website is as follows:
 
-- From my GitHub project I went to **Settings**,
-- Then selected **Pages** on the left hand menu,
-- Under **Source** I selected Deploy from a branch,
-- Finally, under **branch** I set it to **main - root** and save.
+- From my GitHub project, I went to **Settings**,
+- Then selected **Pages** on the left-hand menu,
+- Under **Source**, I selected Deploy from a branch,
+- Finally, under **branch**, I set it to **main - root** and saved.
 - The live website can be found here: <https://cniblock.github.io/sticky-notes/>
 
-## Credits.
+## Credits
 
 All HTML and CSS codes written with knowledge gained from CodeInstitute.
 
-The vast majority of JavaScript credit goes to what was learnt with CodeInstitute.
-References from textbook **JavaScript & Jquery - by Jon Duckett** were taken for the LocalStorage soloutions.
+The vast majority of JavaScript credit goes to what was learned with CodeInstitute.
+References from the textbook **JavaScript & jQuery - by Jon Duckett** were taken for the LocalStorage solutions.
 [YouTube tutorials](https://www.youtube.com/watch?v=Efo7nIUF2JY) also assisted in LocalStorage options and also generating colored Notes.
