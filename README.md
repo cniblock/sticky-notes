@@ -74,7 +74,7 @@ A disappointing accessibility score, this is due to the bold colors of the note 
 
 ## Unfixed Bugs
 
-There are no unfixed bugs on the deployed page.
+The only bug I have managed to find is when a note is large and a slider is shown - the edit function is unavailable.
 
 ## Deployment
 
@@ -90,8 +90,18 @@ The process I followed for deploying the website is as follows:
 
 ## Credits
 
-All HTML and CSS codes written with knowledge gained from CodeInstitute.
+All HTML and CSS codes were written with knowledge gained from CodeInstitute.
 
-The vast majority of JavaScript credit goes to what was learned with CodeInstitute.
-References from the textbook **JavaScript & jQuery - by Jon Duckett** were taken for the LocalStorage solutions.
-[YouTube tutorials](https://www.youtube.com/watch?v=Efo7nIUF2JY) also assisted in LocalStorage options and also generating colored Notes.
+- The majority of JavaScript credit goes to what was learned with CodeInstitute.
+- References from the textbook **JavaScript & jQuery - by Jon Duckett** were used for the LocalStorage solutions.
+- [YouTube tutorials](https://www.youtube.com/watch?v=Efo7nIUF2JY) also assisted in LocalStorage options and generating colored Notes.
+
+## Additional Comments
+
+A few points I didn't manage to achieve my desired outcome are:
+
+- I would have liked the notes to have been added at the end of all previous notes, not after the "add Note box" and before the last note.
+- Ideally, the colors of the newly added notes would have been random; currently, the colors are in a set order.
+- More time could have been spent styling the page; although I think it looks okay, it could be improved.
+- The style on the popupBox is very simple and would have been improved if I had given myself more time.
+- Perhaps adding a timestamp to the date section would have been an option, but I was concerned about the lack of space on the note.
