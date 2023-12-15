@@ -31,23 +31,23 @@
 Quickly add new notes with titles and descriptions.
 Update existing notes with ease.
 
-### - Colored Notes
+- Colored Notes
 
 Different colored notes for visual clarity and an enhanced user experience.
 
-### - User-Friendly Interface
+- User-Friendly Interface
 
 Intuitive design for a smooth user experience.
 
-### - Note Deletion
+- Note Deletion
 
 Easily delete notes that are no longer needed.
 
-### - Date Stamp
+- Date Stamp
 
 Every note entry includes a timestamp to track when the note was created or last updated.
 
-### - Responsive Design
+- Responsive Design
 
 The web application is designed to be accessible on various devices for convenience.
 
