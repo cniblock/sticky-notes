@@ -12,7 +12,7 @@ p {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url(/assets/images/wood.jpg);
+    background-image: url(../images/wood.jpg);
     background-size: cover;
     background-repeat: repeat-y;
     background-position: center center;
