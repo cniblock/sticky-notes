@@ -26,28 +26,28 @@
 
 ## Features of the Site
 
-- Add and Update Notes
+- **Add and Update Notes**
 
   - Quickly add new notes with titles and descriptions.
   - Update existing notes with ease.
 
-- Colored Notes
+- **Colored Notes**
 
   - Different colored notes for visual clarity and an enhanced user experience.
 
-- User-Friendly Interface
+- **User-Friendly Interface**
 
   - Intuitive design for a smooth user experience.
 
-- Note Deletion
+- **Note Deletion**
 
   - Easily delete notes that are no longer needed.
 
-- Date Stamp
+- **Date Stamp**
 
   - Every note entry includes a timestamp to track when the note was created or last updated.
 
-- Responsive Design
+- **Responsive Design**
 
   - The web application is designed to be accessible on various devices for convenience.
 
@@ -55,15 +55,15 @@
 
 ### Validator Testing
 
-- HTML
+- **HTML**
 
   - I can confirm that all HTML on each page has passed without error in the official [W3C Validator](https://validator.w3.org/#validate_by_input).
 
-- CSS
+- **CSS**
 
   - I can confirm that all CSS has passed without error in the official Jigsaw [Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
 
-- JavaScript
+- **JavaScript**
   - I can confirm that all JavaScript has passed without error in [JShint](https://jshint.com/) - there are, however, 13 warnings.
 
 ### Accessibility
