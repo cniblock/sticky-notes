@@ -292,7 +292,8 @@ title {
 
 @media (max-width: 770px) {
     .popup-box .popup {
-        max-width: 90%;
+        max-width: 100%;
+        min-width: 350px;
     }
 
     .popup-box .popup .content {
