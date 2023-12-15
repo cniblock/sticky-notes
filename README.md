@@ -1,6 +1,6 @@
 # Post-it Pal
 
-!(readmeimages/responsive-postitpal.jpg)
+![Responsive design image](https://cniblock-sticky-notes-sonblzst97.us2.codeanyapp.com/files/download/?id=93460600-8042-4bd5-918b-6cb87f6735b4)
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Post-it Pal is a digital note-making web application designed to simplify and or
 
 ## Site Goals
 
-### The primary goals of Post-it Pal are:
+### The primary goals of Post-it Pal
 
 Efficiency: Streamline the note-taking process by providing a quick and intuitive platform.
 
@@ -18,7 +18,7 @@ User-Friendly: Create a seamless and easy-to-use experience for users of all lev
 
 ## User Goals
 
-## Users can leverage Post-it Pal for:
+## Users can leverage Post-it Pal
 
 Note Creation: Easily create new digital notes with titles and descriptions.
 
@@ -44,5 +44,12 @@ Easily delete notes that are no longer needed.
 ### 5. Date Stamp
 Every note entry includes a timestamp to track when the note was created or last updated
 
-### 5. Responsive Design
+### 6. Responsive Design
 The web application is designed to be accessible on various devices for convenience.
+
+## Testing
+
+test
+test
+test
+
