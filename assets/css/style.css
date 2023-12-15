@@ -9,7 +9,31 @@ p {
 }
 
 body {
+    font-family: 'Gochi Hand', cursive;
     background-image: url("/assets/images/wood.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+}
+
+header {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 90px;
+    background-color: yellow;
+    height: 250px;
+    width: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .wrapper {
@@ -221,5 +245,4 @@ form .row .label {
 .content form button {
     width: 100%;
     height: 45px;
-
 }
