@@ -9,7 +9,7 @@ p {
 }
 
 body {
-    background-image: url("assets/images/wood-background.jpg");
+    background-image: url("/assets/images/wood.jpg");
 }
 
 .wrapper {

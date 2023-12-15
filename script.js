@@ -26,8 +26,12 @@ closeIcon.addEventListener("click", () => {
 
 function showNotes() {
     document.querySelectorAll(".note").forEach(note => note.remove());
+    const availableColors = ["#ffff1a", "#ff33cc", "#33ff33", "#0080ff", "#9933ff"];
+
     notes.forEach((note, index) => {
-        let liTag = `<li class="note">
+        const fixedColor = availableColors[index % availableColors.length];
+
+        let liTag = `<li class="note" style="background-color: ${fixedColor};">
         <div class="details">
           <p>${note.title}</p>
           <span>${note.description}</span>
