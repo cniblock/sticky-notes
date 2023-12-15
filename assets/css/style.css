@@ -7,12 +7,12 @@
 }
 
 p {
-    font-size: 22px;
+    font-size: 26px;
 }
 
 body {
-    font-family: 'Gochi Hand', cursive;
-    background-image: url(../assets/images/wood.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/assets/images/wood.jpg);
     background-size: cover;
     background-repeat: repeat-y;
     background-position: center center;
@@ -29,7 +29,7 @@ header {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 110px;
     background-color: yellow;
     height: 250px;
     width: 550px;
@@ -38,6 +38,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0;
+    font-family: 'Gochi Hand', cursive, sans-serif;
 }
 
 /* Wrapper styles */
