@@ -289,3 +289,17 @@ title {
         padding-right: 30px;
     }
 }
+
+@media (max-width: 770px) {
+    .popup-box .popup {
+        max-width: 90%;
+    }
+
+    .popup-box .popup .content {
+        max-width: 100%;
+    }
+
+    .popup-box .popup .content form {
+        margin: 15px 10px 35px;
+    }
+}
