@@ -78,9 +78,12 @@ h1 {
     cursor: pointer;
 }
 
+.add-box p {
+    font-size: 26px;
+}
+
 .add-box .icon {
-    height: 78px;
-    width: 78px;
+    font-size: 200px;
 }
 
 .add-box p {
