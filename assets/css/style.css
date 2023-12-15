@@ -9,7 +9,7 @@ p {
 }
 
 body {
-    background-image: url("assets/images/pexels-pixabay-326311.jpg");
+    background-image: url("assets/images/wood-background.jpg");
 }
 
 .wrapper {
@@ -64,6 +64,11 @@ body {
 .fa-circle-plus {
     font-size: 40px;
     margin: 0 auto;
+}
+
+.note .details {
+    max-height: 165px;
+    overflow-y: auto;
 }
 
 .note p {
