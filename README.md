@@ -26,7 +26,7 @@
 
 ## Features of the Site
 
-### - Add and Update Notes
+- Add and Update Notes
 
 Quickly add new notes with titles and descriptions.
 Update existing notes with ease.
